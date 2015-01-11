@@ -24,8 +24,8 @@
 [Projects]()
 
   * # Vox Remover
-  * [Vox Remover][1]
-      * [GitHub][2]
+  * [XDA Thread][1]
+  * [GitHub][2]
   - - - -
   * # TechHouse
   * [Google+][3]
