@@ -20,27 +20,21 @@
   -->
 
 [About](pages/about.md)
-[Download](pages/download.md)
 
-<!-- A more complex navigation example: ----------------------------------------
+[Projects]()
 
-[Menu Item 1]()
-
-  * # SubMenu Heading 1
-  * [SubMenu Item 1](pages/subitem1.md)
-  * [SubMenu Item 2](pages/subitem2.md)
+  * # Vox Remover
+  * [Vox Remover][1]
+      * [GitHub][2]
   - - - -
-  * # SubMenu Heading 2
-  * [SubMenu Item 3](pages/subitem3.md)
-  - - - -
-  * # SubMenu Heading 3
-  * [SubMenu Item 3](pages/subitem3.md)
+  * # TechHouse
+  * [Google+][3]
+  * [YouTube][4]
 
-[Menu Item 2](pages/item2.md)
-
-[Menu Item 3](pages/item3.md)
-
----------------------------------------------------------------------------- -->
+[1]: http://forum.xda-developers.com/android/apps-games/tool-vox-remover-t2870264
+[2]: https://github.com/TeamVoxive/vox_remover
+[3]: https://plus.google.com/116782453922961382111
+[4]: https://www.youtube.com/channel/UCQ1ZMKS4fnIWqXS5ao9TaYA
 
 <!--
   -- Change the Language
