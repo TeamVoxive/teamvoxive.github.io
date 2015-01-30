@@ -1,6 +1,5 @@
 # WARNING! AWESOMENESS AHEAD!
 
-## Welcome!
 Welcome to the official home of **Team Voxive**, a small side project by [Brandon Giesing][1] to create things that people may enjoy or may not.
 
 Click [About](pages/about.md) to read more about me and the "Team". Also, view the Projects dropdown to visit our two projects: Vox Remover and Team Voxive Presents: TechHouse!
