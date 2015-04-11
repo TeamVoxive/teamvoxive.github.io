@@ -23,6 +23,11 @@
 
 [Projects]()
 
+  * # Vox Variety
+  * [Radionomy Page][r1]
+  * [NikNot Page][r2]
+  * [TuneIn Page][r3]
+  - - - -
   * # Vox Remover
   * [XDA Thread][1]
   * [GitHub][2]
@@ -31,6 +36,9 @@
   * [Google+][3]
   * [YouTube][4]
 
+[r1]: http://radionomy.com/en/radio/voxvariety/index
+[r2]: http://niknot.com/stations/vox-variety/
+[r3]: http://tunein.com/radio/Vox-Variety-s244928/
 [1]: http://forum.xda-developers.com/android/apps-games/tool-vox-remover-t2870264
 [2]: https://github.com/TeamVoxive/vox_remover
 [3]: https://plus.google.com/116782453922961382111
