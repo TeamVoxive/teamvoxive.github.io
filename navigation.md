@@ -45,19 +45,6 @@
 [th2]: https://www.youtube.com/channel/UCQ1ZMKS4fnIWqXS5ao9TaYA
 
 <!--
-  -- Change the Language
-  -- Could be useful when there's more than one language wiki.
-  -->
-
-<!--
-[Change the Language]()
-
-  * [English (United States)](/en_US/)
-  * [English (United Kingdom)](/en_GB/)
-  * [Italian](/it/)
--->
-
-<!--
   -- Let the user choose a theme
   -- (Read: http://dynalon.github.io/mdwiki/#!quickstart.md#Adding_a_navigation)
   -->
