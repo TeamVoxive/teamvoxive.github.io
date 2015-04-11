@@ -24,25 +24,25 @@
 [Projects]()
 
   * # Vox Variety
-  * [Radionomy Page][r1]
-  * [NikNot Page][r2]
-  * [TuneIn Page][r3]
+  * [Radionomy Page][v1]
+  * [NikNot Page][v2]
+  * [TuneIn Page][v3]
   - - - -
   * # Vox Remover
-  * [XDA Thread][1]
-  * [GitHub][2]
+  * [XDA Thread][r1]
+  * [GitHub][r2]
   - - - -
   * # TechHouse
-  * [Google+][3]
-  * [YouTube][4]
+  * [Google+][th1]
+  * [YouTube][th2]
 
-[r1]: http://radionomy.com/en/radio/voxvariety/index
-[r2]: http://niknot.com/stations/vox-variety/
-[r3]: http://tunein.com/radio/Vox-Variety-s244928/
-[1]: http://forum.xda-developers.com/android/apps-games/tool-vox-remover-t2870264
-[2]: https://github.com/TeamVoxive/vox_remover
-[3]: https://plus.google.com/116782453922961382111
-[4]: https://www.youtube.com/channel/UCQ1ZMKS4fnIWqXS5ao9TaYA
+[v1]: http://radionomy.com/en/radio/voxvariety/index
+[v2]: http://niknot.com/stations/vox-variety/
+[v3]: http://tunein.com/radio/Vox-Variety-s244928/
+[r1]: http://forum.xda-developers.com/android/apps-games/tool-vox-remover-t2870264
+[r2]: https://github.com/TeamVoxive/vox_remover
+[th1]: https://plus.google.com/116782453922961382111
+[th2]: https://www.youtube.com/channel/UCQ1ZMKS4fnIWqXS5ao9TaYA
 
 <!--
   -- Change the Language
