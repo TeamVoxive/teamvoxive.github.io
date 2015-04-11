@@ -1,24 +1,10 @@
-<!--
-  -- Name of your wiki
-  -- Do NOT remove the leading `#` character.
-  -->
-
+<!-- Name of your wiki -- Do NOT remove the leading `#` character.  -->
 # Team Voxive
 
-
-<!--
-  -- Default theme
-  -- (Read: http://dynalon.github.io/mdwiki/#!customizing.md#Theme_chooser)
-  -->
-
+<!-- Default theme -- (Read: http://dynalon.github.io/mdwiki/#!customizing.md#Theme_chooser) -->
 [gimmick:theme](journal)
 
-
-<!--
-  -- Navigation
-  -- (Read: http://dynalon.github.io/mdwiki/#!quickstart.md#Adding_a_navigation)
-  -->
-
+<!-- Navigation -- (Read: http://dynalon.github.io/mdwiki/#!quickstart.md#Adding_a_navigation) -->
 [About](pages/about.md)
 
 [Projects]()
@@ -44,11 +30,7 @@
 [th1]: https://plus.google.com/116782453922961382111
 [th2]: https://www.youtube.com/channel/UCQ1ZMKS4fnIWqXS5ao9TaYA
 
-<!--
-  -- Let the user choose a theme
-  -- (Read: http://dynalon.github.io/mdwiki/#!quickstart.md#Adding_a_navigation)
-  -->
-
+<!-- Let the user choose a theme -- (Read: http://dynalon.github.io/mdwiki/#!quickstart.md#Adding_a_navigation) -->
 <!--
 [gimmick:themechooser](Choose theme)
 -->
