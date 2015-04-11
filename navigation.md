@@ -1,10 +1,13 @@
 <!-- Name of your wiki -- Do NOT remove the leading `#` character.  -->
+
 # Team Voxive
 
 <!-- Default theme -- (Read: http://dynalon.github.io/mdwiki/#!customizing.md#Theme_chooser) -->
+
 [gimmick:theme](journal)
 
 <!-- Navigation -- (Read: http://dynalon.github.io/mdwiki/#!quickstart.md#Adding_a_navigation) -->
+
 [About](pages/about.md)
 
 [Projects]()
