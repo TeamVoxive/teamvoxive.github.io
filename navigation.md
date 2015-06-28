@@ -4,7 +4,7 @@
 
 <!-- Default theme -- (Read: http://dynalon.github.io/mdwiki/#!customizing.md#Theme_chooser) -->
 
-[gimmick:theme](journal)
+[gimmick:theme](simplex)
 
 <!-- Navigation -- (Read: http://dynalon.github.io/mdwiki/#!quickstart.md#Adding_a_navigation) -->
 
@@ -22,8 +22,3 @@
   * [TuneIn](http://tunein.com/radio/Vox-Variety-s244928/)
   * [Streamitter](http://www.streamitter.com/vox-variety-1657.php)
   * [NikNot](http://niknot.com/stations/vox-variety/)
-
-<!-- Let the user choose a theme -- (Read: http://dynalon.github.io/mdwiki/#!quickstart.md#Adding_a_navigation) -->
-<!--
-[gimmick:themechooser](Choose theme)
--->
