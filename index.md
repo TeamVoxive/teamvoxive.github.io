@@ -1,4 +1,3 @@
-# Vox Variety
 Welcome to the official home of **Vox Variety**, a 24-hour Variety Internet Radio for Users, by Users!
 
 The Navigation above includes more ways to listen along with the player below and ways to contribute to keep the station alive.
