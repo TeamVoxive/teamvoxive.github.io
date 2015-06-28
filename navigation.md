@@ -4,7 +4,7 @@
 
 <!-- Default theme -- (Read: http://dynalon.github.io/mdwiki/#!customizing.md#Theme_chooser) -->
 
-[gimmick:theme](simplex)
+[gimmick:theme](paper)
 
 <!-- Navigation -- (Read: http://dynalon.github.io/mdwiki/#!quickstart.md#Adding_a_navigation) -->
 
