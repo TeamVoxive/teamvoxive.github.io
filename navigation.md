@@ -8,6 +8,14 @@
 
 <!-- Navigation -- (Read: http://dynalon.github.io/mdwiki/#!quickstart.md#Adding_a_navigation) -->
 
+[Contribute]()
+
+  * [Support us on Patreon][1]
+  * [Fork it on GitHub][2]
+
+[1]: https://www.patreon.com/voxvariety
+[2]: https://github.com/TeamVoxive/teamvoxive.github.io/fork
+
 [Listen Everywhere]()
 
   * [Radionomy Page](http://radionomy.com/en/radio/voxvariety/index)
