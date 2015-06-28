@@ -18,10 +18,10 @@
 
 [Listen Everywhere]()
 
-  * [Radionomy Page](http://radionomy.com/en/radio/voxvariety/index)
-  * [TuneIn Page](http://tunein.com/radio/Vox-Variety-s244928/)
+  * [Radionomy](http://radionomy.com/en/radio/voxvariety/index)
+  * [TuneIn](http://tunein.com/radio/Vox-Variety-s244928/)
   * [Streamitter](http://www.streamitter.com/vox-variety-1657.php)
-  * [NikNot Page](http://niknot.com/stations/vox-variety/)
+  * [NikNot](http://niknot.com/stations/vox-variety/)
 
 <!-- Let the user choose a theme -- (Read: http://dynalon.github.io/mdwiki/#!quickstart.md#Adding_a_navigation) -->
 <!--
