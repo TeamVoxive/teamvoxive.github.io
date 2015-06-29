@@ -13,4 +13,4 @@ radplayer('color1', '#000000');
 radplayer('color2', '#ffffff');
 </script>
 
-<script id="tockify-embed-script" data-tockify-script="embed" type="text/javascript" src="https://public.tockify.com/browser/embed.js"></script>
+<script data-cfasync="false" id="tockify-embed-script" data-tockify-script="embed" type="text/javascript" src="https://public.tockify.com/browser/embed.js"></script>
