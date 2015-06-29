@@ -10,7 +10,7 @@ The Navigation above includes more ways to listen along with the player below an
     </div>
     <div class="col-md-8">
       <h2 id="listen-now">SCHEDULE</h2>
-        # TEST
+        <div data-tockify-calendar="voxvariety" data-tockify-component="calendar" data-tockify-view="agenda" ></div>
     </div>
   </div>
 </div>
@@ -23,6 +23,3 @@ radplayer('volume', '50');
 radplayer('color1', '#000000');
 radplayer('color2', '#ffffff');
 </script>
-
-<div data-tockify-calendar="voxvariety" data-tockify-component="calendar" data-tockify-view="agenda" ></div>
-<script id="tockify-embed-script" data-tockify-script="embed" type="text/javascript" src="https://public.tockify.com/browser/embed.js"></script>
