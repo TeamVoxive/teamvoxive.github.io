@@ -10,9 +10,7 @@ The Navigation above includes more ways to listen along with the player below an
     </div>
     <div class="col-md-8">
       <h2 id="listen-now">SCHEDULE</h2>
-        <div class="embed-responsive embed-responsive-16by9">
-          <div data-tockify-calendar="voxvariety" data-tockify-component="calendar" data-tockify-view="agenda"></div>
-        </div>
+        <div data-tockify-calendar="voxvariety" data-tockify-component="calendar" data-tockify-view="agenda"></div>
     </div>
   </div>
 </div>
