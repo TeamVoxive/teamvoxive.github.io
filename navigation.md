@@ -10,15 +10,14 @@
 
 [Contribute]()
 
-  * [Support us on Patreon][1]
-  * [Fork it on GitHub][2]
+  * [Donate on Patreon](https://www.patreon.com/voxvariety)
+  * [Submit website changes on GitHub](https://github.com/TeamVoxive/teamvoxive.github.io/fork)
 
-[1]: https://www.patreon.com/voxvariety
-[2]: https://github.com/TeamVoxive/teamvoxive.github.io/fork
-
-[Listen Everywhere]()
+[Other Players]()
 
   * [Radionomy](http://radionomy.com/en/radio/voxvariety/index)
   * [TuneIn](http://tunein.com/radio/Vox-Variety-s244928/)
   * [Streamitter](http://www.streamitter.com/vox-variety-1657.php)
   * [NikNot](http://niknot.com/stations/vox-variety/)
+  
+[Blog](pages/blog.md)
