@@ -17,11 +17,10 @@
 <body>
   <header>
   <nav class="amber darken-3">
-    <a href="#" class="brand-logo center">
-      <img style="height:63px;width:75px;" src="logo.svg">
-    </a>
     <ul id="slide-out" class="side-nav fixed">
-      <li><a href="http://blog.voxvariety.cf">Blog</a></li>
+      <li class="logo"><a id="logo-container" href="http://voxvariety.cf" class="brand-logo">
+            <object id="front-page-logo" type="image/svg+xml" data="logo.svg">Your browser does not support SVG</object></a></li>
+      <li class="no-padding navimg"><a href="http://blog.voxvariety.cf">Blog<i class="material-icons left">subject</i></a></li>
       <li class="no-padding navimg"><a href="#request" id='requestbutton' class="modal-trigger">Suggest a Song<i class="material-icons">playlist_add</i></a></li>
       <li class="no-padding">
         <ul class="collapsible collapsible-accordion">
@@ -50,6 +49,7 @@
           </li>
         </ul>
       </li>
+      <li class="no-padding navimg"><a href="https://webmenu.org/apps/vox-variety"><i class="material-icons">add</i><img class="center" style="padding-top:20px;margin-left:-6px;" src="https://d2avfbmbvwlo8q.cloudfront.net/assets/logo_5-1ccea9940734e4845fc16ecdff1f1d42.png"></img></a>
     </ul>
   <a href="#" data-activates="slide-out" class="button-collapse waves-effect waves-circle" style="left:10px;"><i class="mdi-navigation-menu purple-text text-darken-4"></i></a>
   </nav>
@@ -57,17 +57,19 @@
   
   <main>
   <div class="section no-pad-bot" id="index-banner">
-    <div class="container centered">
+    <div class="container center centered">
       <br><br>
       <div class="row center">
+        <a href="http://voxvariety.cf" class="brand-logo">
+          <img src="logo.png" width="200px" height="200px" style="margin-top:-70px;margin-bottom:-40px;">
+        </a>
         <h5 class="header col s12 purple-text text-darken-4">Unique Radio. 24/7.</h5>
       </div>
       <div class="row center">
-        <a href="#schedule" class="btn-large waves-effect waves-light amber darken-3 modal-trigger"><i class="material-icons left">today</i>Schedule</a>
-        <a href="https://twitter.com/VoxVariety" class="btn-large waves-effect waves-light twitter-blue"><i class="material-icons left">person_add</i>Twitter</a>
+        <a href="#schedule" class="btn waves-effect waves-light amber darken-3 modal-trigger" style="width:173px;"><i class="material-icons left">today</i>Schedule</a>
       </div>
       <div class="row center">
-        <a href="https://webmenu.org/apps/vox-variety" class="btn-large waves-effect waves-light grey lighten-5"><i class="material-icons left grey-text text-lighten-1" style="margin-left:-10px;">add</i><img class="center" style="padding-top:17px;margin:0px -10px;" src="https://d2avfbmbvwlo8q.cloudfront.net/assets/logo_5-1ccea9940734e4845fc16ecdff1f1d42.png"></img></a>
+        <a href="https://twitter.com/VoxVariety" class="btn waves-effect waves-light twitter-blue" style="width:173px;"><i class="material-icons left">person_add</i>Twitter</a>
       </div>
     </div>
   </div>

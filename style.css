@@ -34,7 +34,12 @@ header, main, footer {
   top: 50%;
   left: 50%;
   /* bring your own prefixes */
-  transform: translate(-50%, -50%);
+  transform: translate(-40%, -55%);
+}
+@media only screen and (max-width : 992px) {
+  .centered {
+    transform: translate(-50%, -50%);
+  }
 }
 .navimg i {
 	width:2rem;
