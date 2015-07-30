@@ -12,7 +12,57 @@
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection">
-  <link href="style.css" type="text/css" rel="stylesheet" media="screen,projection">
+  <style>
+    .icon-block {
+      padding: 0 15px;
+    }
+    .icon-block .material-icons {
+    	font-size: inherit;
+    }
+    body {
+        display: flex;
+        min-height: 100vh;
+        flex-direction: column;
+    }
+    main {
+        flex: 1 0 auto;
+    }
+    header, main, footer {
+      padding-left: 240px;
+    }
+    
+    @media only screen and (max-width : 992px) {
+      header, main, footer {
+        padding-left: 0;
+      }
+    }
+    .centered {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      /* bring your own prefixes */
+      transform: translate(-40%, -55%);
+    }
+    @media only screen and (max-width : 992px) {
+      .centered {
+        transform: translate(-50%, -50%);
+      }
+    }
+    .navimg i {
+    	width:2rem;
+    	font-size:1.9rem;
+    	line-height:4.2rem;
+    	display:block;
+    	float:left;
+    	text-align:center;
+    	margin-right:.8rem;
+      margin-left:1.2rem;
+    }
+    
+    .twitter-blue {
+    	background-color:#55acee !important
+    }
+  </style>
 </head>
 <body>
   <header>
