@@ -26,11 +26,15 @@
     }
     main {
         flex: 1 0 auto;
+        background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAQ0lEQVQYV2OUl5eXfPjw4XMGPACkhhEkj08xTA6sEJdiZAPgCtEVo9uCohCmGESju5s8hcjW4bQam88xPENU8BAb4ACbDED3c3u/mwAAAABJRU5ErkJggg==)repeat;
     }
     header, main, footer {
       padding-left: 240px;
     }
-    
+    footer.page-footer{
+      margin-top:0px;
+      padding-top:0px;
+    }
     @media only screen and (max-width : 992px) {
       header, main, footer {
         padding-left: 0;
@@ -58,7 +62,6 @@
     	margin-right:.8rem;
       margin-left:1.2rem;
     }
-    
     .twitter-blue {
     	background-color:#55acee !important
     }
@@ -194,7 +197,7 @@
     </div>
   </div>
 
-  <div class="fixed-action-btn" style="bottom:42px;right:24px;">
+  <div class="fixed-action-btn" style="bottom:22px;right:24px;">
     <a href='#player' id='playbutton' class="btn-floating btn-large modal-trigger waves-effect waves-circle amber darken-3">
       <i class="large material-icons" title="Listen Now">play_arrow</i>
     </a>
