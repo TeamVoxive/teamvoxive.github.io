@@ -46,7 +46,7 @@ html, body {
   width: calc(100% - 80px);
 }
 .mdl-demo.mdl-demo .mdl-card__supporting-text h4 { margin-top:0;margin-bottom:20px; }
-.mdl-demo .mdl-card__actions { margin:0;padding:4px 20px;color:inherit; }
+.mdl-demo .mdl-card__actions { margin:0;padding:4px 33px;color:inherit; }
 .mdl-demo .mdl-card__actions a { color:#00BCD4;margin:0; }
 .mdl-demo .mdl-card__actions a:hover,.mdl-demo .mdl-card__actions a:active { color:inherit;background-color:transparent; }
 .mdl-demo .mdl-card__supporting-text + .mdl-card__actions {
