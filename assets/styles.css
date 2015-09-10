@@ -62,7 +62,7 @@ html, body { font-family:'Product Sans','Helvetica',sans-serif;margin:0;padding:
 .center { display:block;margin:0 auto; }
 .vcenter { display:block;margin-top:auto;margin-bottom:auto; }
 .spacer { flex-grow:1; }
-h3 { text-align:center; }
+h4 { text-align:center; }
 .twitter-blue {	background-color:#55acee; }
 main { background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAQ0lEQVQYV2OUl5eXfPjw4XMGPACkhhEkj08xTA6sEJdiZAPgCtEVo9uCohCmGESju5s8hcjW4bQam88xPENU8BAb4ACbDED3c3u/mwAAAABJRU5ErkJggg==)repeat; }
 .mdl-mini-footer { padding:5px 16px; }
