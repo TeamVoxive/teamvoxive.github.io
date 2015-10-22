@@ -473,7 +473,7 @@ body {
     webkit-tap-highlight-color: #222;
 }
 
-@media (ya-title-fade: false) {
+@media (ya-title-fade: true) {
     .navbar-inner {
         padding-top: 32px
     }
