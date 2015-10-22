@@ -1,75 +1,94 @@
-<!doctype html><html lang="en">
-  <head>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="A front-end template that helps you build fast, modern mobile web apps.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Vox Variety</title><meta name="application-name" content="Vox Variety"/>
-    <link rel="icon" sizes="192x192" href="../assets/icon.png">
-    <meta name="mobile-web-app-capable" content="yes">
-    <meta name="theme-color" content="#FF8F00">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <meta name="apple-mobile-web-app-title" content="Vox Variety">
-    <link rel="apple-touch-icon-precomposed" href="../assets/icon.png">
-    <link href="https://fonts.googleapis.com/css?family=Product+Sans" rel="stylesheet">
-    <link href="//cdn.materialdesignicons.com/1.1.70/css/materialdesignicons.min.css" media="all" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.4/material.deep_orange-deep_purple.min.css"/><link rel="stylesheet" href="../assets/styles.css">
-  </head>
-  <body class="mdl-demo mdl-color--grey-100 mdl-color-text--grey-700 mdl-base">
-    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-      <header class="mdl-layout__header mdl-layout__header--scroll mdl-color--primary">
-        <div class="mdl-layout__header-row"></div><div class="mdl-layout__header-row mdl-cell--hide-desktop" style="padding-left:0px;">
-          <img src="../assets/logo.png" width="100" height="200%" class="center">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Vox Variety</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+
+    <!-- Custom Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
+
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="css/animate.min.css" type="text/css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/creative.css" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top">
+
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Vox Variety</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="http://twitter.com/VoxVariety"><i class="fa fa-twitter wow bounceIn"> Twitter</i></a>
+                    </li>
+                    <li>
+                        <a href="http://blog.voxvariety.cf"><i class="fa fa-rss wow bounceIn"> Blog</i></a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
         </div>
-        <div class="mdl-layout__header-row mdl-cell--hide-phone mdl-cell--hide-tablet" style="padding-left:0px;">
-          <img src="../assets/logo.png" width="200" height="200%" class="center">
-        </div><div class="mdl-layout__header-row"></div></div>
-      </header>
-      <main class="mdl-layout__content">
-        <div class="mdl-layout__tab-panel is-active" id="overview"><section class="section--center mdl-grid mdl-grid--no-spacing">
-	<div class="mdl-cell mdl-cell--12-col">
-	  <h4 class="mdl-color-text--accent">Unique Radio. 24/7.</h4>
-	  <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
-		<div class="mdl-card__supporting-text mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone mdl-color--white">
-		  There's plenty of ways to listen to Vox Variety! Click the button for more.
-		  <a href="#" class="mdl-button mdl-color-text--accent" id="play">Other Ways to Listen <i class="mdi mdi-open-in-new"></i></a>
-		</div>
-		<header class="section__play-btn mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone mdl-color--white">
-		  <iframe src="http://tunein.com/embed/player/s244928/" style="width:100%;height:100px;" scrolling="no" frameborder="no"></iframe>
-		</header>
-		<script id='fbbmnjh'>(function(i){var f,s=document.getElementById(i);f=document.createElement('iframe');f.src='//api.flattr.com/button/view/?uid=bgiesing&button=compact&url=http%3A%2F%2Fvoxvariety.cf';f.title='Flattr';f.height=20;f.width=110;f.style.borderWidth=0;s.parentNode.insertBefore(f,s);})('fbbmnjh');</script>
-	</div>
-	<div class="mdl-cell mdl-cell--12-col">
-	  <a class="typeform-share mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent center" href="https://dotmaniac39.typeform.com/to/iQSd1n" data-mode="2" target="_blank">Take a Quick Survey</a>
-<script>(function() {var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if (!gi.call(d, id))
-{js = ce.call(d, 'script');js.id = id;js.src = b + 'share.js';q = gt.call(d, 'script')[0];q.parentNode.insertBefore(js, q)}id = id + '_';if (!gi.call(d, id))
-{qs = ce.call(d, 'link');qs.rel = 'stylesheet';qs.id = id;qs.href = b + 'share-button.css';s = gt.call(d, 'head')[0];s.appendChild(qs, s)}})()</script>
-	</div>
-				<header class="section__play-btn mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone twitter-blue mdl-color-text--white">
-				  <i class="mdi mdi-twitter md-48"></i>
-				</header>
-				<div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
-				  <div class="mdl-card__supporting-text"><h4>Song Schedule</h4>Visit our Twitter for a list of songs playing now!</div>
-				  <div class="mdl-card__actions"><a href="http://twitter.com/VoxVariety" class="mdl-button mdl-color-text--light-blue">View on Twitter <i class="mdi mdi-open-in-new"></i></a></div>
-				</div></section>
-          </section></section>
-      	<ul class="mdl-menu mdl-js-menu mdl-js-ripple-effect" for="play">
-	  <a style="text-decoration: none;" href="http://listen.radionomy.com/voxvariety.m3u"><li class="mdl-menu__item">Stream URL</li></a>
-	  <a style="text-decoration: none;" href="https://www.radionomy.com/en/radio/voxvariety/index"><li class="mdl-menu__item">Radionomy</li></a>
-	  <a style="text-decoration: none;" href="http://www.streamitter.com/vox-variety-1657.php"><li class="mdl-menu__item">Streamitter</li></a>
-	  <a style="text-decoration: none;" href="http://niknot.com/stations/vox-variety/"><li class="mdl-menu__item">NikNot</li></a>
-	</ul>
-        </div></div></section></div>
-      </main>
-      <footer class="mdl-mini-footer">
-        <div class="mdl-logo" async>Copyright ©
-<script type="text/javascript">
-var d = new Date();
-document.write(d.getFullYear())
-</script> <a href="http://brandon.giesing.cf">Brandon Giesing</a></div>
-      </footer>
-    </div>
-    <script src="../assets/material.min.js"></script>
-  </body>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <header>
+        <div class="header-content">
+            <div class="header-content-inner">
+                <h1>Unique Radio. 24/7.</h1>
+                <hr>
+                <iframe src="http://tunein.com/embed/player/s244928/" style="width:100%;height:100px;" scrolling="no" frameborder="no"></iframe>
+            </div>
+        </div>
+    </header>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/jquery.fittext.js"></script>
+    <script src="js/wow.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/creative.js"></script>
+
+</body>
+
 </html>
