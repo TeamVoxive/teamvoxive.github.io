@@ -475,9 +475,7 @@ body {
 
 @media (ya-dock-fade: false) and (ya-title-fade: false) {
 #mainNav {
-  position: absolute;
   top: 32px;
-  bottom: 32px;
   height: auto;
   overflow: auto;
 }
