@@ -183,7 +183,9 @@ header {
     background-size: cover;
     -o-background-size: cover;
     -webkit-animation-duration: 3s;
+    -webkit-animation-delay: 2s;
     -moz-animation-duration: 3s;
+    -moz-animation-delay: 2s;
 }
 
 header .header-content {
@@ -199,17 +201,17 @@ header .header-content .header-content-inner h1 {
     text-transform: uppercase;
     font-weight: 700;
     -webkit-animation-duration: 3s;
-    -webkit-animation-delay: 2s;
+    -webkit-animation-delay: 4s;
     -moz-animation-duration: 3s;
-    -moz-animation-delay: 2s;
+    -moz-animation-delay: 4s;
 }
 
 header .header-content .header-content-inner hr {
     margin: 30px auto;
     -webkit-animation-duration: 3s;
-    -webkit-animation-delay: 6s;
+    -webkit-animation-delay: 4s;
     -moz-animation-duration: 3s;
-    -moz-animation-delay: 6s;
+    -moz-animation-delay: 4s;
 }
 
 header .header-content .header-content-inner iframe {
