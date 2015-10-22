@@ -79,15 +79,16 @@
             <center>
                 <h2 class="editable"><strong>SUBMIT A SONG</strong></h2>
                 <hr />
-                <form method="post" action="/success.html">
-                  <input type="text" name="artist" placeholder="Artist" />
-                  <p></p>
-                  <input type="text" name="title" placeholder="Title" />
-                  <input type="hidden" name="cc_emails[]" value="brandon@giesing.cf" />
-                  <p></p>
-                  <button type="submit" class="btn btn-primary btn-xl">
-                      <i class="fa fa-paper-plane fa-2x">
-                  </button>
+                <form action="//formspree.io/your@email.com"
+                      method="POST">
+                      <input type="text" name="artist" placeholder="Artist" />
+                      <p></p>
+                      <input type="text" name="title" placeholder="Title" />
+                      <input type="hidden" name="cc_emails[]" value="brandon@giesing.cf" />
+                      <p></p>
+                      <button type="submit" class="btn btn-primary btn-xl">
+                          <i class="fa fa-paper-plane fa-2x">
+                      </button>
                 </form>
             </center>
             </div>
