@@ -473,12 +473,12 @@ body {
     webkit-tap-highlight-color: #222;
 }
 
-@media (ya-title-fade: false) {
- body {
- padding-top: 100px;
- }
- 
- .navbar > .container {
- margin-top: 30px;
- }
+@media (ya-dock-fade: true) and (ya-title-fade: true) {
+body {
+  position: absolute;
+  top: 32px;
+  bottom: 32px;
+  height: auto;
+  overflow: auto;
+}
 }
