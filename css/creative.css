@@ -182,8 +182,8 @@ header {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    -webkit-animation-duration: 3s;
-    -moz-animation-duration: 3s;
+    -webkit-animation-duration: 5s;
+    -moz-animation-duration: 5s;
 }
 
 header .header-content {
@@ -198,25 +198,25 @@ header .header-content .header-content-inner h1 {
     margin-bottom: 0;
     text-transform: uppercase;
     font-weight: 700;
-    -webkit-animation-duration: 3s;
+    -webkit-animation-duration: 2s;
     -webkit-animation-delay: 2s;
-    -moz-animation-duration: 3s;
+    -moz-animation-duration: 2s;
     -moz-animation-delay: 2s;
 }
 
 header .header-content .header-content-inner hr {
     margin: 30px auto;
-    -webkit-animation-duration: 3s;
+    -webkit-animation-duration: 2s;
     -webkit-animation-delay: 2s;
-    -moz-animation-duration: 3s;
+    -moz-animation-duration: 2s;
     -moz-animation-delay: 2s;
 }
 
 header .header-content .header-content-inner iframe {
-    -webkit-animation-duration: 3s;
-    -webkit-animation-delay: 6s;
-    -moz-animation-duration: 3s;
-    -moz-animation-delay: 6s;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-delay: 2s;
+    -moz-animation-duration: 2s;
+    -moz-animation-delay: 2s;
 }
 
 @media(min-width:768px) {
