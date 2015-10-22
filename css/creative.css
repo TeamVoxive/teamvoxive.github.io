@@ -474,7 +474,7 @@ body {
 }
 
 @media (ya-dock-fade: false) and (ya-title-fade: false) {
-#mainNav {
+.navbar-default {
   top: 32px;
   height: auto;
   overflow: auto;
