@@ -120,12 +120,6 @@ aside {
     background-color: transparent;
 }
 
-.nav .navbar-nav .navbar-right {
-    font-family: 'Product Sans','Helvetica Neue',Arial,sans-serif;
-    font-weight: 700;
-    color: #f05f40;
-}
-
 @media(min-width:768px) {
     .navbar-default {
         border-color: rgba(255,255,255,.3);
