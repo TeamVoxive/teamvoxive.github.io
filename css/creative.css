@@ -473,8 +473,8 @@ body {
     webkit-tap-highlight-color: #222;
 }
 
-@media (ya-title-fade: false) and (ya-dock-fade: false) {
-    #mainNav {
+@media (ya-title-fade: true) and (ya-dock-fade: true) {
+    .navbar-default {
         top: -32px;
         bottom: -32px
     }
