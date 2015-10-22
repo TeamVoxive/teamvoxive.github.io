@@ -474,7 +474,7 @@ body {
 }
 
 @media (ya-title-fade: false) {
-    .navbar-inner {
+    .navbar {
         padding-top: 32px
     }
 }
