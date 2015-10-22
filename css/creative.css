@@ -475,7 +475,7 @@ body {
 
 @media (ya-title-fade: false) and (ya-dock-fade: false) {
     .navbar-default {
-        margin-top: -32px;
-        margin-bottom: -32px
+        padding-top: -32px;
+        padding-bottom: -32px
     }
 }
