@@ -74,6 +74,24 @@
             </div>
         </div>
     </header>
+    
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <h2 class="editable">Submit a Song</h2>
+                <hr>
+                <form method="post" action="/success.html">
+                  <label>Artist</label><input type="text" name="artist" />
+                  <label>Title</label><input type="text" name="title" />
+                  <input type="hidden" name="cc_emails[]" value="brandon@giesing.cf" />
+                  <input type="hidden" name="cc_emails[]" value="george@cloudcannon.com" />
+                
+                  <input type="submit" value="Send Message" />
+                </form>
+            </div>
+        </div>
+    </section>
+
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
