@@ -199,24 +199,24 @@ header .header-content .header-content-inner h1 {
     text-transform: uppercase;
     font-weight: 700;
     -webkit-animation-duration: 2s;
-    -webkit-animation-delay: 2s;
+    -webkit-animation-delay: 1s;
     -moz-animation-duration: 2s;
-    -moz-animation-delay: 2s;
+    -moz-animation-delay: 1s;
 }
 
 header .header-content .header-content-inner hr {
     margin: 30px auto;
     -webkit-animation-duration: 2s;
-    -webkit-animation-delay: 2s;
+    -webkit-animation-delay: 1s;
     -moz-animation-duration: 2s;
-    -moz-animation-delay: 2s;
+    -moz-animation-delay: 1s;
 }
 
 header .header-content .header-content-inner iframe {
     -webkit-animation-duration: 2s;
-    -webkit-animation-delay: 2s;
+    -webkit-animation-delay: 1s;
     -moz-animation-duration: 2s;
-    -moz-animation-delay: 2s;
+    -moz-animation-delay: 1s;
 }
 
 @media(min-width:768px) {
