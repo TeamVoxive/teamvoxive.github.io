@@ -183,9 +183,7 @@ header {
     background-size: cover;
     -o-background-size: cover;
     -webkit-animation-duration: 3s;
-    -webkit-animation-delay: 1s;
     -moz-animation-duration: 3s;
-    -moz-animation-delay: 1s;
 }
 
 header .header-content {
@@ -209,9 +207,9 @@ header .header-content .header-content-inner h1 {
 header .header-content .header-content-inner hr {
     margin: 30px auto;
     -webkit-animation-duration: 3s;
-    -webkit-animation-delay: 4s;
+    -webkit-animation-delay: 2s;
     -moz-animation-duration: 3s;
-    -moz-animation-delay: 4s;
+    -moz-animation-delay: 2s;
 }
 
 header .header-content .header-content-inner iframe {
