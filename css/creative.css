@@ -475,7 +475,7 @@ body {
 
 @media (ya-dock-fade: false) and (ya-title-fade: false) {
 body {
-  position: absolute;
+  position: block;
   top: 32px;
   bottom: 32px;
   height: auto;
