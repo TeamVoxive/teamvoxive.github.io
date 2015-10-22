@@ -189,8 +189,8 @@ header {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    -webkit-animation-duration: 20s;
-    -moz-animation-duration: 20s;
+    -webkit-animation-duration: 50s;
+    -moz-animation-duration: 50s;
 }
 
 header .header-content {
