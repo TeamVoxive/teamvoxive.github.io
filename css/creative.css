@@ -472,3 +472,9 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #222;
 }
+
+@media (ya-title-fade: true) {
+  div .title-fade {
+    padding-top: 32px; 
+  }
+}
