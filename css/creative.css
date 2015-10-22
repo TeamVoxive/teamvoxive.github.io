@@ -473,7 +473,7 @@ body {
     webkit-tap-highlight-color: #222;
 }
 
-@media (ya-dock-fade: true) and (ya-title-fade: true) {
+@media (ya-dock-fade: false) and (ya-title-fade: false) {
 body {
   position: absolute;
   top: 32px;
