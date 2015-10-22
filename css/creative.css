@@ -182,6 +182,10 @@ header {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-delay: 2s;
+    -moz-animation-duration: 3s;
+    -moz-animation-delay: 2s;
 }
 
 header .header-content {
