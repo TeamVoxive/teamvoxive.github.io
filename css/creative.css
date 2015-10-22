@@ -83,6 +83,9 @@ aside {
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
+}
+
+.navbar-default .container-fluid {
     -webkit-animation-duration: 2s;
     -webkit-animation-delay: 1s;
     -moz-animation-duration: 2s;
