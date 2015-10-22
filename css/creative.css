@@ -85,6 +85,13 @@ aside {
     transition: all .35s;
 }
 
+.navbar-default .container-fluid {
+    -webkit-animation-duration: 2s;
+    -webkit-animation-delay: 1s;
+    -moz-animation-duration: 2s;
+    -moz-animation-delay: 1s;
+}
+
 .navbar-default .navbar-header .navbar-brand {
     font-family: 'Product Sans','Helvetica Neue',Arial,sans-serif;
     font-weight: 700;
@@ -182,8 +189,8 @@ header {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    -webkit-animation-duration: 5s;
-    -moz-animation-duration: 5s;
+    -webkit-animation-duration: 50s;
+    -moz-animation-duration: 50s;
 }
 
 header .header-content {
