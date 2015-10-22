@@ -472,9 +472,3 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #222;
 }
-
-@media (ya-title-fade: false) {
-    .navbar {
-        padding-top: 32px
-    }
-}
