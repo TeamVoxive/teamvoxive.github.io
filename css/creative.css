@@ -86,7 +86,6 @@ aside {
 }
 
 .navbar-default .navbar-header .navbar-brand {
-    text-transform: uppercase;
     font-family: 'Product Sans','Helvetica Neue',Arial,sans-serif;
     font-weight: 700;
     color: #f05f40;
@@ -99,7 +98,6 @@ aside {
 
 .navbar-default .nav > li>a,
 .navbar-default .nav>li>a:focus {
-    text-transform: uppercase;
     font-size: 13px;
     font-weight: 700;
     color: #222;
@@ -184,6 +182,8 @@ header {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    -webkit-animation-duration: 5s;
+    -moz-animation-duration: 5s;
 }
 
 header .header-content {
@@ -198,17 +198,25 @@ header .header-content .header-content-inner h1 {
     margin-bottom: 0;
     text-transform: uppercase;
     font-weight: 700;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-delay: 1s;
+    -moz-animation-duration: 2s;
+    -moz-animation-delay: 1s;
 }
 
 header .header-content .header-content-inner hr {
     margin: 30px auto;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-delay: 1s;
+    -moz-animation-duration: 2s;
+    -moz-animation-delay: 1s;
 }
 
-header .header-content .header-content-inner p {
-    margin-bottom: 50px;
-    font-size: 16px;
-    font-weight: 300;
-    color: rgba(255,255,255,.7);
+header .header-content .header-content-inner iframe {
+    -webkit-animation-duration: 2s;
+    -webkit-animation-delay: 1s;
+    -moz-animation-duration: 2s;
+    -moz-animation-delay: 1s;
 }
 
 @media(min-width:768px) {
