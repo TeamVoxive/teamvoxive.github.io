@@ -193,6 +193,10 @@ header .header-content {
     width: 100%;
     padding: 100px 15px;
     text-align: center;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-delay: 6s;
+    -moz-animation-duration: 3s;
+    -moz-animation-delay: 6s;
 }
 
 header .header-content .header-content-inner h1 {
