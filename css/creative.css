@@ -16,12 +16,12 @@ body {
 
 hr {
     max-width: 50px;
-    border-color: #f05f40;
+    border-color: #FF9800;
     border-width: 3px;
 }
 
-hr.light {
-    border-color: #fff;
+hr .purple {
+    border-color: #9C27B0;
 }
 
 a {
