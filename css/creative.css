@@ -20,7 +20,7 @@ hr {
     border-width: 3px;
 }
 
-hr .purple {
+hr.purple {
     border-color: #9C27B0;
 }
 
