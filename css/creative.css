@@ -91,9 +91,17 @@ aside {
 }
 
 .navbar-default .container-fluid {
+    animation-iteration-count: 1;
+    -webkit-animation-iteration-count: 1;
+    -moz-animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    -webkit-animation-timing-function: ease-in;
+    -moz-animation-timing-function: ease-in;
+    animation-duration: 2s;
     -webkit-animation-duration: 2s;
-    -webkit-animation-delay: 1s;
     -moz-animation-duration: 2s;
+    animation-delay: 1s;
+    -webkit-animation-delay: 1s;
     -moz-animation-delay: 1s;
 }
 
@@ -194,6 +202,13 @@ header {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    animation-iteration-count: 1;
+    -webkit-animation-iteration-count: 1;
+    -moz-animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    -webkit-animation-timing-function: ease-in;
+    -moz-animation-timing-function: ease-in;
+    animation-duration: 50s;
     -webkit-animation-duration: 50s;
     -moz-animation-duration: 50s;
 }
@@ -209,24 +224,48 @@ header .header-content .header-content-inner h1 {
     margin-top: 0;
     margin-bottom: 0;
     font-weight: 700;
+    animation-iteration-count: 1;
+    -webkit-animation-iteration-count: 1;
+    -moz-animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    -webkit-animation-timing-function: ease-in;
+    -moz-animation-timing-function: ease-in;
+    animation-duration: 2s;
     -webkit-animation-duration: 2s;
-    -webkit-animation-delay: 1s;
     -moz-animation-duration: 2s;
+    animation-delay: 1s;
+    -webkit-animation-delay: 1s;
     -moz-animation-delay: 1s;
 }
 
 header .header-content .header-content-inner hr {
     margin: 30px auto;
+    animation-iteration-count: 1;
+    -webkit-animation-iteration-count: 1;
+    -moz-animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    -webkit-animation-timing-function: ease-in;
+    -moz-animation-timing-function: ease-in;
+    animation-duration: 2s;
     -webkit-animation-duration: 2s;
-    -webkit-animation-delay: 1s;
     -moz-animation-duration: 2s;
+    animation-delay: 1s;
+    -webkit-animation-delay: 1s;
     -moz-animation-delay: 1s;
 }
 
 header .header-content .header-content-inner iframe {
+    animation-iteration-count: 1;
+    -webkit-animation-iteration-count: 1;
+    -moz-animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    -webkit-animation-timing-function: ease-in;
+    -moz-animation-timing-function: ease-in;
+    animation-duration: 2s;
     -webkit-animation-duration: 2s;
-    -webkit-animation-delay: 1s;
     -moz-animation-duration: 2s;
+    animation-delay: 1s;
+    -webkit-animation-delay: 1s;
     -moz-animation-delay: 1s;
 }
 
