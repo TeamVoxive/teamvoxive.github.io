@@ -32,6 +32,7 @@ a {
     color: #ff9800;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
+    -o-transition: all .35s;
     transition: all .35s;
 }
 
@@ -91,6 +92,7 @@ aside {
     background-color: #9C27B0;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
+    -o-transition: all .35s;
     transition: all .35s;
 }
 
@@ -284,6 +286,8 @@ header .header-content .header-content-inner iframe {
         padding: 0 50px;
         -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
         transform: translateY(-50%);
     }
 
@@ -324,6 +328,7 @@ header .header-content .header-content-inner iframe {
     background-color: #f1f1f1;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
+    -o-transition: all .35s;
     transition: all .35s;
 }
 
@@ -377,6 +382,7 @@ fieldset[disabled] .btn-default.active {
     background-color: #ff9800;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
+    -o-transition: all .35s;
     transition: all .35s;
 }
 
@@ -459,5 +465,5 @@ img::-moz-selection {
 }
 
 body {
-    webkit-tap-highlight-color: #212121;
+    -webkit-tap-highlight-color: #212121;
 }
