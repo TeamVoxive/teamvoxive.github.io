@@ -88,7 +88,7 @@ aside {
 .navbar-default {
     border-color: rgba(34,34,34,.05);
     font-family: 'Product Sans','Helvetica Neue',Arial,sans-serif;
-    background-color: #f1f1f1;
+    background-color: #9C27B0;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -155,7 +155,7 @@ aside {
 
     .navbar-default .navbar-header .navbar-brand:hover,
     .navbar-default .navbar-header .navbar-brand:focus {
-        color: #f1f1f1;
+        color: #9C27B0;
     }
 
     .navbar-default .nav > li>a,
@@ -165,12 +165,12 @@ aside {
 
     .navbar-default .nav > li>a:hover,
     .navbar-default .nav>li>a:focus:hover {
-        color: #f1f1f1;
+        color: #9C27B0;
     }
 
     .navbar-default.affix {
         border-color: rgba(34,34,34,.05);
-        background-color: #f1f1f1;
+        background-color: #9C27B0;
     }
 
     .navbar-default.affix .navbar-header .navbar-brand {
