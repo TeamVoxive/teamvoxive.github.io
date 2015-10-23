@@ -208,9 +208,9 @@ header {
     animation-timing-function: ease-in;
     -webkit-animation-timing-function: ease-in;
     -moz-animation-timing-function: ease-in;
-    animation-duration: 50s;
-    -webkit-animation-duration: 50s;
-    -moz-animation-duration: 50s;
+    animation-duration: 100s;
+    -webkit-animation-duration: 100s;
+    -moz-animation-duration: 100s;
 }
 
 header .header-content {
