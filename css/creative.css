@@ -55,14 +55,14 @@ p {
     background-color: #f05f40;
 }
 
-.bg-dark {
-    color: #f1f1f1;
-    background-color: #212121;
+.bg-purple {
+    color: #FF9800;
+    background-color: #9C27B0;
 }
 
-.bg-light {
-    color: #212121;
-    background-color: #f1f1f1;
+.bg-orange {
+    color: #9C27B0;
+    background-color: #FF9800;
 }
 
 .text-faded {
