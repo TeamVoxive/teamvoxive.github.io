@@ -56,8 +56,13 @@ p {
 }
 
 .bg-dark {
-    color: #fff;
-    background-color: #222;
+    color: #f1f1f1;
+    background-color: #212121;
+}
+
+.bg-dark {
+    color: #212121;
+    background-color: #f1f1f1;
 }
 
 .text-faded {
