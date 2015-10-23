@@ -1,5 +1,4 @@
 # Vox Variety Website
-
 ## Powered by
 - [Bootstrap](http://getbootstrap.com/)
 - [Creative Template by Start Bootstrap](http://startbootstrap.com/template-overviews/creative/)
