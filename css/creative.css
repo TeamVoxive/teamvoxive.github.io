@@ -103,7 +103,6 @@ header {  position: relative;
           color: #f1f1f1;
           background-image: url(../img/header.jpg);
           background-position: center;
-          -webkit-background-size: cover;
           -moz-background-size: cover;
           background-size: cover;
           -o-background-size: cover;
