@@ -85,26 +85,8 @@
         </div>
     </header>
     
-    <script>
-    (function(d){
-      var iframe = d.#last-played.appendChild(d.createElement('iframe')),
-      doc = iframe.contentWindow.document;
-    
-      // style the iframe with some CSS
-      iframe.style.cssText = "position:absolute;width:200px;height:100px;left:0px;";
-      
-      doc.open().write('<body onload="' + 
-      'var d = document;d.getElementsByTagName(\'head\')[0].' + 
-      'appendChild(d.createElement(\'script\')).src' + 
-      '=\'\/path\/to\/file\'">');
-      
-      doc.close(); //iframe onload event happens
-    
-      })(document);
-    </script>
-    
     <aside id="last-played" class="bg-orange">
-        <center class="wow animated bounceInLeft">
+        <center id="last-played-c" class="wow animated bounceInLeft">
         <h2 class="editable"><strong>LAST PLAYED</strong></h2>
         <hr class="purple" />
         <!--
@@ -146,6 +128,8 @@
 
     <!-- Custom Theme JavaScript -->
     <script async type="text/javascript" src="js/creative.js"></script>
-
+    <script>
+        $('<iframe />', {"name":"tracklist","id":"tracklist","src":"http://radionomy.letoptop.fr/last_titres.php?radiouid=66a4314d-eaf0-48b1-b207-d134e129f816&color=9C27B0&bgcolor=FF9800&width=300&height=220&size=12&nb=6&thumb=20&font=Arial"}).appendTo('#last-played-c');
+    </script>
 </body>
 </html>
