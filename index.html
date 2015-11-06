@@ -72,7 +72,6 @@
             <div class="header-content-inner" id="top">
                 <h1 class="editable animated fadeInDown">Unique Radio. 24/7.</h1>
                 <hr class="animated fadeInLeftBig light" />
-                <iframe class="animated fadeInUp" style="width:100%;height:100px;" scrolling="no" frameborder="no" src="//tunein.com/embed/player/s244928/"></iframe>
             </div>
         </div>
     </header>
@@ -119,7 +118,7 @@
     <script>
     $( document ).ready(function() {
         $('<iframe />', {"name":"tracklist","id":"tracklist","style":"border:0px;width:250px;height:200px;margin-top:-20px","frameborder":"0","scrolling":"no","src":"http://radionomy.letoptop.fr/last_titres.php?radiouid=66a4314d-eaf0-48b1-b207-d134e129f816&color=FF9800&bgcolor=9C27B0&width=250&height=200&size=12&nb=6&thumb=40&font=Arial"}).appendTo('#last-played');
-        $('<iframe />', {"name":"player","id":"player","style":"width:100%;height:100px;","frameborder":"0","scrolling":"no","src":"//tunein.com/embed/player/s244928/"}).appendTo('#top');
+        $('<iframe />', {"name":"player","id":"player","style":"width:100%;height:100px;","frameborder":"0","class":"animated fadeInUp","scrolling":"no","src":"//tunein.com/embed/player/s244928/"}).appendTo('#top');
     });
     </script>
 </body>
