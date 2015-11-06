@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Bootstrap Core CSS -->
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css" />
-
     <script>
         /*!
         loadCSS: load a CSS file asynchronously.
@@ -58,6 +55,7 @@
         	}
         }( typeof global !== "undefined" ? global : this ));
         
+        loadCSS( "//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css" );
         loadCSS( "//fonts.googleapis.com/css?family=Product+Sans" );
         loadCSS( "//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" );
         loadCSS( "//cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.min.css" );
@@ -77,6 +75,9 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="apple-mobile-web-app-title" content="Vox Variety">
     <link rel="apple-touch-icon-precomposed" href="../icon.png">
+    
+    <!-- Bootstrap Core CSS -->
+    <noscript><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css" /></noscript>
     
     <!-- Custom Fonts -->
     <noscript><link rel='stylesheet' type='text/css' href="//fonts.googleapis.com/css?family=Product+Sans" /></noscript>
