@@ -4,12 +4,7 @@
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css" />
 
-    <!-- Custom Fonts -->
-    <link rel='stylesheet' type='text/css' href="//fonts.googleapis.com/css?family=Product+Sans" />
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
-    
-    <!-- Plugin CSS -->
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.min.css">
+
     
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -25,6 +20,71 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="apple-mobile-web-app-title" content="Vox Variety">
     <link rel="apple-touch-icon-precomposed" href="../icon.png">
+    
+    <script>
+        /*!
+        loadCSS: load a CSS file asynchronously.
+        [c]2015 @scottjehl, Filament Group, Inc.
+        Licensed MIT
+        */
+        (function(w){
+        	"use strict";
+        	/* exported loadCSS */
+        	var loadCSS = function( href, before, media ){
+        		var doc = w.document;
+        		var ss = doc.createElement( "link" );
+        		var ref;
+        		if( before ){
+        			ref = before;
+        		}
+        		else {
+        			var refs = ( doc.body || doc.getElementsByTagName( "head" )[ 0 ] ).childNodes;
+        			ref = refs[ refs.length - 1];
+        		}
+        
+        		var sheets = doc.styleSheets;
+        		ss.rel = "stylesheet";
+        		ss.href = href;
+        		ss.media = "only x";
+        
+        		ref.parentNode.insertBefore( ss, ( before ? ref : ref.nextSibling ) );
+        		var onloadcssdefined = function( cb ){
+        			var resolvedHref = ss.href;
+        			var i = sheets.length;
+        			while( i-- ){
+        				if( sheets[ i ].href === resolvedHref ){
+        					return cb();
+        				}
+        			}
+        			setTimeout(function() {
+        				onloadcssdefined( cb );
+        			});
+        		};
+        
+        		ss.onloadcssdefined = onloadcssdefined;
+        		onloadcssdefined(function() {
+        			ss.media = media || "all";
+        		});
+        		return ss;
+        	};
+        	if( typeof module !== "undefined" ){
+        		module.exports = loadCSS;
+        	}
+        	else {
+        		w.loadCSS = loadCSS;
+        	}
+        }( typeof global !== "undefined" ? global : this ));
+        
+        loadCSS( "//fonts.googleapis.com/css?family=Product+Sans" );
+        loadCSS( "//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" );
+        loadCSS( "//cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.min.css" );
+    </script>
+    <!-- Custom Fonts -->
+    <noscript><link rel='stylesheet' type='text/css' href="//fonts.googleapis.com/css?family=Product+Sans" /></noscript>
+    <noscript><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css"></noscript>
+    
+    <!-- Plugin CSS -->
+    <noscript><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.min.css"></noscript>
 
     <!-- Custom CSS -->
     <style>
