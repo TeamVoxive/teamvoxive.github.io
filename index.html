@@ -11,7 +11,7 @@
 
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection">
   <style>
     .icon-block {
       padding: 0 15px;
@@ -52,16 +52,6 @@
         transform: translate(-50%, -50%);
       }
     }
-    .navimg i {
-    	width:2rem;
-    	font-size:1.9rem;
-    	line-height:4.2rem;
-    	display:block;
-    	float:left;
-    	text-align:center;
-    	margin-right:.8rem;
-      margin-left:1.2rem;
-    }
     .twitter-blue {
     	background-color:#55acee !important
     }
@@ -71,10 +61,9 @@
   <header>
   <nav class="amber darken-3">
     <ul id="slide-out" class="side-nav fixed">
-      <li class="logo"><a id="logo-container" href="http://voxvariety.cf" class="brand-logo">
-            <object id="front-page-logo" type="image/svg+xml" data="logo.svg">Your browser does not support SVG</object></a></li>
-      <li class="no-padding navimg"><a href="http://blog.voxvariety.cf">Blog<i class="material-icons left">subject</i></a></li>
-      <li class="no-padding navimg"><a href="#request" id='requestbutton' class="modal-trigger">Suggest a Song<i class="material-icons">playlist_add</i></a></li>
+      <li><a href="http://blog.voxvariety.cf">Blog<i class="material-icons left">subject</i></a></li>
+      <li><a href="#request" id='requestbutton' class="modal-trigger">Suggest a Song<i class="material-icons">playlist_add</i></a></li>
+      <li><a href="#!">Second Sidebar Link</a></li>
       <li class="no-padding">
         <ul class="collapsible collapsible-accordion">
           <li>
@@ -87,6 +76,7 @@
             </div>
           </li>
         </ul>
+      </li>
       <li class="no-padding">
         <ul class="collapsible collapsible-accordion">
           <li>
@@ -102,9 +92,10 @@
           </li>
         </ul>
       </li>
-      <li class="no-padding navimg"><a href="https://webmenu.org/apps/vox-variety"><i class="material-icons">add</i><img class="center" style="padding-top:20px;margin-left:-6px;" src="webmenu.png" sizes="110x20"></img></a>
     </ul>
-  <a href="#" data-activates="slide-out" class="button-collapse waves-effect waves-circle" style="left:10px;"><i class="mdi-navigation-menu purple-text text-darken-4"></i></a>
+    <li><a href="https://webmenu.org/apps/vox-variety"><i class="material-icons">add</i><img class="center" style="padding-top:20px;margin-left:-6px;" src="webmenu.png" sizes="110x20"></img></a>
+    <a href="#" data-activates="slide-out" class="button-collapse waves-effect waves-circle" style="left:10px;"><i class="mdi-navigation-menu purple-text text-darken-4"></i></a>
+    <ul id="slide-out" class="side-nav fixed">
   </nav>
   </header>
   
@@ -214,8 +205,8 @@
 
 
   <!--  Scripts-->
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js" async></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" async></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
   <script>
   // Initialize collapse button
   $(".button-collapse").sideNav();
