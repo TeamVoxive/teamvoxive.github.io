@@ -95,7 +95,6 @@
     </ul>
     <li><a href="https://webmenu.org/apps/vox-variety"><i class="material-icons">add</i><img class="center" style="padding-top:20px;margin-left:-6px;" src="webmenu.png" sizes="110x20"></img></a>
     <a href="#" data-activates="slide-out" class="button-collapse waves-effect waves-circle" style="left:10px;"><i class="mdi-navigation-menu purple-text text-darken-4"></i></a>
-    <ul id="slide-out" class="side-nav fixed">
   </nav>
   </header>
   
@@ -209,9 +208,16 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
   <script>
   // Initialize collapse button
-  $(".button-collapse").sideNav();
+  $('.button-collapse').sideNav({
+      menuWidth: 300, // Default is 300
+      edge: 'left',
+      onOpen: function(el) { /* Do Stuff* / },
+      onClose: function(el) { /* Do Stuff* / },
+    }
+  );
   // Initialize collapsible (uncomment the line below if you use the dropdown variation)
   $('.collapsible').collapsible();
+
   // Initialize Modals
   $(document).ready(function(){
     // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
