@@ -170,7 +170,7 @@
       <a href="#!" class="modal-action modal-close waves-effect waves-orange btn-flat amber-text text-darken-3">Close</a>
     </div>
   </div>
-
+    
   <div id="request" class="modal modal-fixed-footer">
     <div class="modal-content center" style='padding:0px 0px;'>
       <iframe id='frame1' src='' style='overflow:hidden;height:950px;width:100%;border:0;'>Loading...</iframe>
@@ -210,20 +210,14 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
   <script>
   // Initialize collapse button
-  $('.button-collapse').sideNav({
-      menuWidth: 300, // Default is 300
-      edge: 'left',
-      onOpen: function(el) { /* Do Stuff* / },
-      onClose: function(el) { /* Do Stuff* / },
-    }
-  );
+  $('.button-collapse').sideNav();
   // Initialize collapsible (uncomment the line below if you use the dropdown variation)
   $('.collapsible').collapsible();
 
   // Initialize Modals
   $(document).ready(function(){
     // the "href" attribute of the modal trigger must specify the modal ID that wants to be triggered
-    $('.modal').modal();
+    $('.modal-trigger').modal();
   });
   $('#playbutton').one('click', function(e) {
       $("#frame2").attr("src", "https://www.radionomy.com/en/radio/voxvariety/listen/?autoplay=true");
